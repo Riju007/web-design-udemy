@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #000000;
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    /* background-color: #0000ff; */
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000;
+    /* height: 40px; */
+    opacity: 0.33;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color: #000000;
+    /* height: 100px; */
+    text-align: center;
+    opacity: 0.5;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 84px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+
+/* compound selector -> style differently all the a tag inside the navbar */
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer p {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaaaaa;
+}
+
+.maps {
+    padding-bottom: 100px;
+}
